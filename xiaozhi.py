@@ -58,7 +58,7 @@ def log_info(message): log("INFO", message)
 def log_error(message): log("ERROR", message)
 def log_debug(message): log("DEBUG", message)
 
-# 硬件配置
+# 硬件配置 根据实际连接的Pin脚进行配置
 I2S_ID_IN, SCK_PIN_IN, WS_PIN_IN, SD_PIN_IN = 0, 9, 8, 7
 I2S_ID_OUT, SCK_PIN_OUT, WS_PIN_OUT, SD_PIN_OUT = 1, 11, 12, 10
 KEY_PIN = 13
