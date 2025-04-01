@@ -18,15 +18,15 @@ send_audio_thread = None
 ping_thread = None
 
 # WebSocket 配置
-ws_url = "ws://14.103.130.118:8000/xiaozhi/v1/"
-msg_info = {"type": "hello", "session_id": "3a66666c"}
+ws_url = "ws://xxx:8000/xiaozhi/v1/" #使用自己部署的服务端IP
+msg_info = {"type": "hello", "session_id": "xxx"} #session_id可为空
 access_token = "test-token"
 device_mac = "32:23:42:24:52:25"
-device_uuid = "4321414214214"
+device_uuid = "xxx" #自行设置
 
-# WiFi 配置
-WIFI_SSID = "Prefoco"
-WIFI_PASSWORD = "18961210318"
+# WiFi 配置 根据实际配置
+WIFI_SSID = "xxx"
+WIFI_PASSWORD = "xxx"
 WIFI_RETRY_MAX = 5
 WIFI_RETRY_DELAY = 5
 
